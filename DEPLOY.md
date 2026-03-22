@@ -14,12 +14,14 @@ git config --global user.name "Your Name"
 git config --global user.email "your.email@example.com"
 ```
 
-### 2. Create initial commit (if not done)
+### 2. Initial commit (already done)
+
+An initial commit exists. To update the author before pushing:
 
 ```bash
-cd c:\Users\sbpra\New_RAG
-git add -A
-git commit -m "Initial commit: RAG pipeline + AI podcast generation"
+git config user.name "Your Name"
+git config user.email "your.email@example.com"
+git commit --amend --reset-author --no-edit
 ```
 
 ### 3. Create a new repository on GitHub
