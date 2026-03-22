@@ -1,4 +1,6 @@
-# Local RAG for PDFs
+# pravinsb.github.io
+
+## Local RAG for PDFs
 
 A fully local RAG (Retrieval-Augmented Generation) pipeline that ingests PDF documents, embeds them with sentence-transformers, stores vectors in ChromaDB, and generates answers using Ollama.
 
@@ -52,3 +54,9 @@ python main.py query
 | `CHUNK_SIZE` | 512 | Characters per chunk |
 | `CHUNK_OVERLAP` | 50 | Overlap between chunks |
 | `TOP_K` | 4 | Number of chunks to retrieve |
+
+---
+
+## AI Podcast Generation
+
+See [ai_podcast/README.md](ai_podcast/README.md) for the AI podcast pipeline (LLM + Higgs 2.5 TTS + FFmpeg).
