@@ -1,0 +1,17 @@
+# AI Podcast Generation Pipeline
+# Python 3.10+
+
+# LLM for script generation (Ollama local or OpenAI-compatible API)
+ollama>=0.3.0
+openai>=1.0.0
+requests>=2.28.0
+
+# Environment and config
+python-dotenv>=1.0.0
+
+# Audio processing (pydub uses ffmpeg under the hood)
+pydub>=0.25.0
+
+# Optional TTS backends (swap via TTS_PROVIDER)
+pyttsx3>=2.90
+edge-tts>=6.1.0

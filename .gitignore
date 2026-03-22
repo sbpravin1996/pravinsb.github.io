@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Project-specific
+chroma_db/
+*.db
+
+# AI Podcast
+ai_podcast/output/*.mp3
+ai_podcast/output/*.wav
+ai_podcast/temp/*
+!ai_podcast/temp/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
